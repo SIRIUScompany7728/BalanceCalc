@@ -1,0 +1,80 @@
+.bdyMore {
+  background-color: white;
+  min-height: 100vh;
+}
+.HDmore {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #3c434a, #ffffff);
+  border-radius: 0px 0px 25px 25px;
+  user-select: none;
+}
+.HDmoretxt {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.paragf {
+  font-size: clamp(1rem, 2vw, 1.6rem);
+}
+.Info1 {
+  font-size: clamp(2rem, 4vw, 4rem);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #30343a;
+  user-select: none;
+}
+.Info2 {
+  background: #ffffff;
+  border-top: 10px solid cyan;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  padding-bottom: 60px;
+  text-align: justify;
+  max-width: 700px;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  box-shadow: 0 0 20px black;
+  border-radius: 10px 10px 10px 10px;
+  user-select: none;
+}
+.Info3 {
+  font-size: clamp(2rem, 4vw, 4rem);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #000;
+  user-select: none;
+}
+.Info4 {
+  background: #ffffff;
+  border-top: 10px solid cyan;
+  display: flex;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  flex-direction: column;
+  padding: 25px;
+  padding-bottom: 60px;
+  text-align: justify;
+  max-width: 700px;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  box-shadow: 0 0 20px black;
+  border-radius: 10px 10px 10px 10px;
+  user-select: none;
+}
+.Info5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: slategrey;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 14px;
+  user-select: none;
+}
+.Info5 span {
+  font-size: 1rem;
+  text-align: center;
+  color: slategrey;
+}
