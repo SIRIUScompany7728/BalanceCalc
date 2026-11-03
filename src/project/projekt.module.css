@@ -1,0 +1,62 @@
+.bdy2 {
+  background: black;
+  min-height: 100vh;
+}
+.HD3 {
+  background: linear-gradient(180deg, #ffff, #000000);
+  padding: 40px;
+  display: flex;
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 700;
+  margin-bottom: 10px;
+  flex-direction: column;
+  text-shadow: 0 0 17px black;
+  user-select: none;
+}
+.HD3paragf {
+  color: #d6e9f0;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+  margin-bottom: 18px;
+  font-size: clamp(1rem, 2vw, 1.6rem);
+  font-weight: 500;
+  gap: 12px;
+}
+.HD3txt2 {
+  color: white;
+  font-size: clamp(1rem, 2vw, 1.6rem);
+  margin-bottom: 18px;
+}
+.imgcalc {
+  background: #043959;
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: 0 0 18px black;
+  width: min(500px, 95%);
+  max-width: 900px;
+  line-height: 1.4;
+  padding: 0 30px;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+  text-align: left;
+  color: white;
+  font-size: clamp(1.2rem, 4vw, 2rem);
+  gap: 12px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.NameApp {
+  color: white;
+  font-size: clamp(2rem, 5vw, 4rem);
+  text-align: center;
+  user-select: none;
+}
+.owner {
+  color: #50575e;
+  font-size: clamp(1rem, 2vw, 1.6rem);
+  text-align: center;
+  user-select: none;
+}
