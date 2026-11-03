@@ -1,0 +1,2 @@
+# BalanceCalc
+Simple Accounting Calculator
