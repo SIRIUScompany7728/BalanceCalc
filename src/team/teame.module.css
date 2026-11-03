@@ -1,0 +1,100 @@
+.teambdy {
+  background-color: black;
+  min-height: 100vh;
+  background-image: radial-gradient(
+      circle at 25% 20%,
+      rgba(28, 169, 0.1),
+      transparent 30%
+    ),
+    radial-gradient(circle at 80% 75%, rgba(124, 58, 0.08), transparent 35%),
+    radial-gradient(rgba(255, 255, 0.07) 1px, transparent 1px),
+    radial-gradient(rgba(28, 169, 0.05) 2px, transparent 2px);
+  background-size: 100% 100%, 100% 100%, 70px 70px, 180px 180px;
+}
+.ourteam {
+  color: white;
+  text-align: center;
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+  flex-wrap: wrap;
+}
+.members {
+  background: #3c434a;
+  border-radius: 30px 30px 30px 30px;
+  color: #f8fafc;
+  margin-top: 30px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  max-width: 280px;
+  padding: 30px;
+  position: relative;
+  width: 320px;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.members::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(45deg, #1ca9c9, #00f5ff, #7c3aed, #1ca9c9);
+  background-size: 300%;
+  animation: boramnt 4s linear infinite;
+  z-index: -2;
+}
+.members::after {
+  content: "";
+  border-radius: 30px 30px 30px 30px;
+  position: absolute;
+  inset: 3px;
+  background: #3c434a;
+  z-index: -1;
+}
+@keyframes boramnt {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 300%;
+  }
+}
+.position {
+  color: #1ca9c9;
+}
+.members img {
+  object-fit: cover;
+  border-radius: 50%;
+}
+.Insta {
+  display: flex;
+  align-items: center;
+  color: slategrey;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 14px;
+}
+.Ig {
+  display: flex;
+  align-items: center;
+  color: slategrey;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 14px;
+}
+.Insta span {
+  font-size: 1rem;
+  text-align: center;
+  color: slategrey;
+}
+.Ig span {
+  font-size: 1rem;
+  text-align: center;
+  color: slategrey;
+}
